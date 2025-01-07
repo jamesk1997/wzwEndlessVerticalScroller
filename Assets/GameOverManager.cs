@@ -28,10 +28,10 @@ public class GameOverManager : MonoBehaviour
     }
 
     public void RestartGame()
-    {
-        Time.timeScale = 1f; // Resume the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload current scene
-    }
+{
+    Time.timeScale = 1f; // Resume the game
+    UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+}
 
     public void QuitGame()
     {
