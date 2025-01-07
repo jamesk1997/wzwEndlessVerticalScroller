@@ -1,0 +1,25 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Visual Studio / Rider project files
+.vscode/
+*.csproj
+*.sln
+*.userprefs
+
+# Exclude OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package cache (except manifest and lock files)
+[Pp]ackages/*
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# Memory Captures
+MemoryCaptures/
