@@ -82,7 +82,7 @@ public class PlatformPoolManager : MonoBehaviour
 
         // Calculate spawn position
         float yOffset = Random.Range(1f, maxJumpHeight * 0.9f); // Stay within max jump height
-        float xPosition = Random.Range(-cameraWidth + 1f, cameraWidth - 1f); // Keep within camera width
+        float xPosition = Random.Range(-cameraWidth + 0.7f, cameraWidth - 0.7f); // Keep within camera width
         float spawnY = Mathf.Max(highestPlatformY + yOffset, minSpawnHeight); // Ensure spawn is above min height
         Vector3 spawnPosition = new Vector3(xPosition, spawnY, 0);
 
